@@ -10,7 +10,6 @@ use DPluschaev\QrCode\QrCode;
 class GoogleChartsRenderer implements RendererInterface
 {
     const ROOT_URL = "https://chart.googleapis.com/chart?";
-    const USE_POST_CHAR_LIMIT = 1900;
     const HTTP_CONNECTION_TIMEOUT_SECONDS = 20;
 
     /**

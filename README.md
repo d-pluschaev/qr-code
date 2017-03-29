@@ -3,6 +3,7 @@ Self-contained solution. No dependencies used, can be added to any
 framework as an external library.
 
 Functional tests are in "test" directory:
+
     cli.php - console script for testing purposes
     index.html - test script for any web server
     
