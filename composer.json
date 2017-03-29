@@ -1,0 +1,8 @@
+{
+  "name": "d-pluschaev/qr-code",
+  "autoload": {
+    "psr-4" : {
+      "QRCode" : "DPluschaev\\QrCode"
+    }
+  }
+}

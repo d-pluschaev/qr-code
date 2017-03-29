@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TrekkSoft Test</title>
+</head>
+<body>
+<h4>QR Code Options</h4>
+
+<form action="qr_loader/web_loader.php" method="post" target="qr-code">
+    <p>
+        <label><input type="text" name="dataString" required value="Test QR code"> dataString</label>
+    </p>
+
+    <p>
+        <label><input type="number" name="width" required min="1" value="200"> x
+            <input type="number" name="height" required min="1" value="200"> width x height</label>
+    </p>
+
+    <button type="submit">Refresh</button>
+</form>
+
+<br>
+<iframe name="qr-code" width="300" height="300"></iframe>
+</body>
+</html>
